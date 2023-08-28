@@ -8,6 +8,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import Payments from './Payments'
 import Banking from './Banking'
+import CashCard from './CashCard'
 
 const Hero = () => {
     return (
@@ -35,6 +36,7 @@ const Hero = () => {
             <Footer theme={'dark'} />
             <Payments/>
             <Banking />
+            <CashCard />
         </>
     )
 }
