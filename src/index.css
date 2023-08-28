@@ -1,13 +1,24 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.hero {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  background-image: url('./assets/Vector.svg');
+}
+
+.intro{
+  max-width: fit-content;
+}
+
+.intro span{
+    transform:scale(1.5,1); /* W3C */
 }
