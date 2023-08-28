@@ -21,8 +21,8 @@ const Payments = () => {
             {/* ------------pillars and phone----------------- */}
             <div className='flex sm:inline-block sm:mx-auto xl:absolute justify-center align-middle pt-20 top-20 left-52'>
                 <div className='self-center'>
-                    <p className='text-left font-bold text-4xl text-green-500'>Payments</p>
-                    <p className='text-left max-w-sm'>
+                    <p className='sm:text-left font-bold text-4xl text-green-500'>Payments</p>
+                    <p className='sm:text-left max-w-sm'>
                         Send and receive money with anyone, donate  to an important cause, or tip professionals.
                         Just enter a $cashtag, phone number, or
                         scan their  QR code to pay.
