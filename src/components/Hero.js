@@ -6,6 +6,7 @@ import introCubes from './../assets/intro-cubes 1.svg'
 import introPillar from './../assets/intro-pillar 1.svg'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Payments from './Payments'
 
 const Hero = () => {
     return (
@@ -31,6 +32,7 @@ const Hero = () => {
                 </div>
             </div>
             <Footer theme={'dark'} />
+            <Payments/>
         </>
     )
 }
